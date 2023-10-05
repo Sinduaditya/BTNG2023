@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata | Sindu</title>
+</head>
+<body>
+    <form action="#">
+        <table style=" border: 1px solid black;
+        border-collapse: collapse;">
+        <tr>
+            <td>
+                <h1>Formulir Biodata</h1>
+            </td>
+        </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for="name">Nama&emsp;&emsp; &nbsp; &nbsp;: </label>
+                    <input type="text" name="name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nim">NIM&emsp; &emsp; &nbsp; &nbsp; : </label>
+                    <input type="text" name="nim" id="nim">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="jurusan">Jurusan &emsp; &nbsp; &nbsp; : </label>
+                    <input type="text" name="jurusan" id="jurusan">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fakultas">Fakultas&emsp; &nbsp; &nbsp; : </label>
+                    <select name="fakultas" id="fakultas">
+                        <option>Fakultas Ilmu Komputer</option>
+                        <option>Fakultas Ilmu Budaya</option>
+                        <option>Fakultas Ekonomi</option>
+                        <option>Fakultas Kesehatan</option>
+                        <option>Fakultas Kedokteran</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="angkatan">Angkatan&emsp;&nbsp;&nbsp; : </label>
+                    <input type="number" name="angkatan" id="angkatan">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pria">Jenis Kelamin:</label>
+                    <label for="wanita">Pria</label>
+                    <input type="radio" id="Pria" name="pria" value="Pria">
+                    <label for="css">Wanita</label>
+                    <input type="radio" id="wanita"           name="wanita" value="Wanita">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email&emsp; &nbsp; &emsp;&nbsp; : </label>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button><a href="./biodata.html">Biodata</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
