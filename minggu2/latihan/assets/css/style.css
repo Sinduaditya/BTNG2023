@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+#judul{
+    font-weight: 800;
+}
+.sub-judul{
+    color: blue;
+}
+
+.content{
+    font-style: italic;
+    color: green;
+}
+
+/* Muktiple Selector */
+.p1, .p3{
+    color: blueviolet;
+}
+
+.p3:hover{
+    color: red;
+}
+
+.shadow{
+    text-shadow: 3px 5px 13px teal;
+    font-size: 40px;
+}
